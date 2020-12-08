@@ -1,8 +1,7 @@
 package whatchamacallit
 import grails.converters.JSON
 
-class HealthCheckController{
-
+class HealthController {
     static allowedMethods = [
             thoroughHealthCheck: ['GET', 'HEAD']
     ]
@@ -11,7 +10,4 @@ class HealthCheckController{
         def output = ["Looking Good!"]
         render output as JSON
     }
-
 }
-
-
