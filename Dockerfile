@@ -5,4 +5,4 @@ ADD . /app
 
 EXPOSE 8090
 
-CMD ["sh", "./grailsw", "run-app"]
+CMD ["/bin/sh", "./grailsw", "run-app"]
