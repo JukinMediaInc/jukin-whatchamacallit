@@ -8,6 +8,6 @@ class UrlMappings {
         }
 
         "/"(view:"/index")
-        "500"(view:'/error')
+        "/health"(controller: 'healthCheck', action: 'healthCheck')
 	}
 }
